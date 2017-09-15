@@ -25,6 +25,7 @@ int main ()
 {   int x, y;
     cout << "Enter the endpoints of the interval : ";
     cin >> x>>y;
+    cout<<"The armstrong Numbers between "<<x<<" and "<<y<<" are : "<<endl;
     armstrong(x,y);
 return 0;
 }
